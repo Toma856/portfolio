@@ -1,0 +1,97 @@
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .linksHead {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .linksHead a {
+         margin-left: 0;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    background-color: rgb(136, 136, 136);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;          
+}
+
+.theme-btn {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme .header {
+    background-color: #000000;
+}
+
+body.dark-theme .hero {
+    background-color: #1e1e1e;
+}
+
+body.dark-theme a {
+    color: #4da6ff;
+}
+            
+.linksHead  a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.ava{
+    width: 150px;
+    height: 150px;
+
+    border: solid;
+    border-radius: 75px;
+}
+.btn {
+    background-color: cadetblue;
+    color: white;
+    border: unset;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer{
+    padding: 100px;
+    text-align: center;
+    position: relative
+}
