@@ -9,3 +9,12 @@ switchBtn.addEventListener("click", function() {
             switchBtn.innerText = "🌙";
         }
 });
+
+let burger = document.getElementById("burgerBtn");
+let menu = document.getElementById("mobileMenu");
+
+if (burger) {
+    burger.addEventListener("click", function(){
+        menu.classList.toggle("active");
+    });
+}
